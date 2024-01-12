@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+# Gestión de Gastos y Finanzas Personales
+
+Obligatorio del año 2023 para el **Taller de FrontEnd de la carrera Analista en Tecnologías de la Información**
+
+
+**---------------------------------------------------------------------------------------------------**
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
