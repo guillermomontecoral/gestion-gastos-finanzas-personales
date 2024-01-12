@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../aplicacion"
+		},
+		{
+			"path": "../../Semestre 2/Diseño de interfaz web/EquipoPSG"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Código4"
+	}
+}

@@ -1,0 +1,276 @@
+/*--HEADER - INICIAR SESION - REGISTRARSE--*/
+.iniciar-sesion,
+.registrarse,
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../src/img/image02.jpg") no-repeat center;
+    background-size: cover;
+    /* color: #f5f5ef; */
+    color: #EFF0E8;
+    min-height: 100vh;
+}
+
+
+header h1 {
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
+
+header p {
+    font-size: 1.5rem;
+    letter-spacing: 1.5px;
+}
+
+
+.btn-iniciar-sesion {
+    background-color: #21416E;
+    color: #EFF0E8;
+    transition: all 0.5s;
+
+}
+
+.btn-iniciar-sesion:hover {
+    /* background-color: #f5f5ef; */
+    background-color: #EFF0E8;
+    color: #11120E;
+
+}
+
+
+.btn-registrarse {
+    /* border: 1px solid #f5f5ef;
+    color: #f5f5ef; */
+    border: 1px solid #EFF0E8;
+    color: #EFF0E8;
+    transition: all 0.5s;
+
+}
+
+.btn-registrarse:hover {
+    background-color: #21416E;
+    border: 1px solid #21416E;
+    color: #EFF0E8;
+}
+
+.p-pass{
+    font-size: 0.8rem;
+}
+/*--MAIN--*/
+main {
+    font-family: 'Montserrat', sans-serif;
+    /* background-color: #fffffe; */
+    background-color: #f7f8f4;
+}
+
+/*---DASHBOARD---*/
+/*--Navegacion--*/
+
+.bg-nav {
+    /* background-color: #272343; */
+    background-color: #11120E;
+}
+
+.bg-nav i,
+.bg-nav a,
+.bg-nav p {
+    /* color: #fffffe; */
+    color: #EFF0E8;
+}
+
+/*--Navegacion botones--*/
+.btn-nav {
+    /* background-color: #ddbd04; */
+    background-color: #323340;
+    transition: all .3s ease-in;
+    /* color: #272343; */
+    color: #EFF0E8;
+    border: none;
+
+}
+
+.btn-nav:hover {
+    /* background-color: #ffd803;
+    color: #272343; */
+    background-color: #21416E;
+    color: #EFF0E8;
+
+}
+
+.active {
+    /* background-color: #ffd803 !important; */
+    background-color: #21416E !important;
+    color: #EFF0E8 !important;
+    border: none;
+}
+
+/*--Titulos secciones--*/
+.titulo-seccion {
+    /* color: #272343; */
+    color: #11120E;
+}
+
+.log-out{
+    color: #11120E !important;
+    background-color: #D1CAAD;
+    transition: all ease-in 0.5s;
+}
+
+.log-out:hover{
+    background-color: #EFF0E8;
+}
+
+/*--Formulario--*/
+.contenedor-form {
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(22, 22, 22, 0.2);
+    /* background: linear-gradient(45deg, rgba(39, 35, 67, 0.3), rgb(168, 232, 232)); */
+}
+
+.contenedor-form-gasto {
+    background: linear-gradient(45deg, rgba(239, 240, 232, 0.3), rgb(209, 202, 173));
+}
+
+.contenedor-form-ingreso {
+    background: linear-gradient(45deg, rgb(209, 202, 173), rgba(239, 240, 232, 0.3));
+}
+
+.btn-form {
+    /* background-color: #272343;
+    color: #fffffe; */
+    background-color: #11120E;
+    color: #EFF0E8;
+    transition: all .3s ease-in;
+}
+
+.btn-form:hover {
+    /* background-color: #322992;
+    color: #fffffe; */
+    background-color: #21416E;
+    color: #EFF0E8;
+}
+
+/*--Footer--*/
+
+footer {
+    color: #fffffe;
+    background-color: #272343;
+}
+
+/*--Listado de movimientos--*/
+.div-listado {
+    /* background: linear-gradient(45deg, rgba(3, 159, 183, 0.3), rgba(100, 255, 177, 0.4)); */
+    /* background: linear-gradient(45deg,  rgb(209, 202, 173), rgb(209, 202, 173)); */
+    /* width: 75%; */
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(22, 22, 22, 0.2);   
+    color: rgb(209, 202, 173); 
+}
+
+thead{
+    /* color: #272343; */
+    color: #11120E;
+}
+
+tbody{
+    /* color: #272343; */
+    color: #21416E;
+}
+
+tbody tr td .quitar-lista{
+    color: rgb(165, 26, 26)!important;
+}
+
+
+/*--Montos totales--*/
+.card-totales {
+    color: #FFF;
+    padding: 20px 40px 40px;
+    text-align: center;
+    border-radius: 8px;
+    transition: all .8s;
+}
+
+.card-totales:nth-child(1) {
+    /* background: linear-gradient(45deg, rgba(3, 110, 183, 0.8), rgba(100, 234, 255, 0.8)); */
+    /* background-color: #11120E; */
+    background-image: linear-gradient(
+  225deg,
+  hsl(236deg 12% 22%) 1%,
+  hsl(208deg 22% 18%) 42%,
+  hsl(192deg 24% 14%) 49%,
+  hsl(173deg 18% 11%) 51%,
+  hsl(139deg 10% 9%) 51%,
+  hsl(75deg 13% 6%) 50%,
+  hsl(138deg 22% 9%) 49%,
+  hsl(173deg 71% 9%) 49%,
+  hsl(189deg 100% 12%) 51%,
+  hsl(199deg 100% 17%) 58%,
+  hsl(215deg 54% 28%) 99%
+);
+}
+
+.card-totales:nth-child(2) {
+    /* background: linear-gradient(45deg, rgb(142, 30, 233, 0.8), rgb(237, 85, 255, 0.8)); */
+    /* background-color: #323340; */
+    background-image: linear-gradient(
+  315deg,
+  hsl(236deg 12% 22%) 1%,
+  hsl(208deg 22% 18%) 42%,
+  hsl(192deg 24% 14%) 49%,
+  hsl(173deg 18% 11%) 51%,
+  hsl(139deg 10% 9%) 51%,
+  hsl(75deg 13% 6%) 50%,
+  hsl(138deg 22% 9%) 49%,
+  hsl(173deg 71% 9%) 49%,
+  hsl(189deg 100% 12%) 51%,
+  hsl(199deg 100% 17%) 58%,
+  hsl(215deg 54% 28%) 99%
+);
+}
+
+.card-totales:nth-child(3) {
+    /* background: linear-gradient(45deg, rgba(250, 150, 0, 0.8), rgb(244, 192, 48, 0.8)); */
+    /* background-color: #21416E; */
+    background-image: linear-gradient(
+  45deg,
+  hsl(236deg 12% 22%) 1%,
+  hsl(208deg 22% 18%) 42%,
+  hsl(192deg 24% 14%) 49%,
+  hsl(173deg 18% 11%) 51%,
+  hsl(139deg 10% 9%) 51%,
+  hsl(75deg 13% 6%) 50%,
+  hsl(138deg 22% 9%) 49%,
+  hsl(173deg 71% 9%) 49%,
+  hsl(189deg 100% 12%) 51%,
+  hsl(199deg 100% 17%) 58%,
+  hsl(215deg 54% 28%) 99%
+);
+}
+
+.card-totales i {
+    font-size: 100px;
+    opacity: 0.;
+}
+
+.card-totales h3 {
+    font-size: 2rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.card-totales p {
+    font-size: 1.3rem;
+}
+
+.card-totales:hover {
+    transform: scale(1.2);
+}
+
+
+/*--Analisis--*/
+.card-analisis {
+    height: 100%;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(22, 22, 22, 0.2);
+}
