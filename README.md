@@ -1,4 +1,14 @@
-# Gestión de Gastos y Finanzas Personales
+# Gestión de Gastos y Finanzas Personales - Taller de FrontEnd
+
+Este proyecto fue realizado como parte del taller de FrontEnd en la carrera de Analista en Tecnologías de la Información de la Universidad ORT Uruguay. En este taller, se adquirieron conocimientos sobre los conceptos fundamentales de React.js, una de las bibliotecas más populares para el desarrollo de interfaces de usuario.
+
+**Conceptos y tecnologías aplicados:**
+- **Componentes:** se aprendió a estructurar la interfaz en componentes reutilizables, facilitando la organización y la reutilización de la UI.
+- **Estado y Props:** se utilizaron estos conceptos para manejar y comunicar datos entre componentes, permitiendo un flujo de información claro y controlado.
+- **Eventos y Ciclo de Vida:** se manejaron eventos de usuario y se profundizó en el ciclo de vida de los componentes, lo que permite gestionar la actualización de la UI de forma eficiente.
+- **Hooks (useState, useEffect):** se emplearon hooks para manejar el estado y efectos secundarios de los componentes, lo que simplifica la administración del estado en componentes funcionales.
+- **JSX (JavaScript XML):** se utilizó JSX para crear la estructura de la UI de una manera declarativa y familiar, integrando HTML en el código JavaScript.
+- **Estilos CSS:** se aplicaron técnicas de estilizado en CSS para mejorar la apariencia visual y experiencia del usuario.
 
 Obligatorio del año 2023 para el **Taller de FrontEnd de la carrera Analista en Tecnologías de la Información**
 
