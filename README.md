@@ -9,8 +9,7 @@ Este proyecto fue realizado como parte del taller de FrontEnd en la carrera de A
 - **Hooks (useState, useEffect):** se emplearon hooks para manejar el estado y efectos secundarios de los componentes, lo que simplifica la administración del estado en componentes funcionales.
 - **JSX (JavaScript XML):** se utilizó JSX para crear la estructura de la UI de una manera declarativa y familiar, integrando HTML en el código JavaScript.
 - **Estilos CSS:** se aplicaron técnicas de estilizado en CSS para mejorar la apariencia visual y experiencia del usuario.
-
-Obligatorio del año 2023 para el **Taller de FrontEnd de la carrera Analista en Tecnologías de la Información**
+- **Consumo de API REST:** se integró una API REST para obtener y manejar datos en tiempo real, lo que permitió enriquecer la aplicación con datos externos y facilitar la comunicación con un backend.
 
 
 **---------------------------------------------------------------------------------------------------**
